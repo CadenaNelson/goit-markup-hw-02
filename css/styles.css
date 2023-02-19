@@ -1,0 +1,91 @@
+:root{
+    --color-texto-principal: black; 
+    --color-texto-secundario: #2126F3;
+    --color-texto-terceario: #FFFFFF;
+    --background-color-principal: #2126F3;
+}
+
+body{
+    font-family: "roboto", "sans-serif";
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: multiplicador;
+}
+
+p{ 
+    color: #757575 
+}
+
+.principal-link{
+    color: var(--color-texto-secundario);
+    text-decoration: none;
+}
+
+.link{
+    color: var(--color-texto-principal);
+    text-decoration: none;
+}
+.link:hover{
+    color: var(--color-texto-principal);
+    text-decoration: underline;
+    text-decoration-thickness:2px;
+    text-decoration-color: var(--color-texto-secundario);
+}
+
+.principal-button{
+    font-family: Raleway;
+    color: var(--color-texto-terceario);
+    background-color: var(--background-color-principal);
+    cursor: pointer;
+}
+
+.button{
+    color: var(--color-texto-principal);
+    background-color: #F5F4FA;
+    cursor: pointer;
+}
+.button:hover{
+    color: var(--color-texto-principal);
+    text-decoration: underline;
+    text-decoration-thickness:2px;
+    text-decoration-color: var(--color-texto-secundario);
+}
+
+.header-contacto{
+    color: var(--color-texto-principal);
+    text-decoration: none;
+}
+.header-contacto:hover{
+    color: var(--color-texto-principal); 
+    text-decoration-thickness:2px;
+    text-decoration-color: var(--color-texto-secundario);
+}
+
+ .main-section{
+    color: var(--color-texto-terceario);
+    background-color: #2F303A;
+    width: 1600px;
+    height: 600px;
+    left: -4px;
+    top: 80px;
+ }
+
+ .footer{
+    color: var(--color-texto-terceario);
+    background-color: #2F303A; 
+}
+
+.footer-link{
+        color: var(--color-texto-terceario);
+}
+
+.footer-contacto{
+    color: var(--color-texto-terceario); 
+    text-decoration: none;
+}
+.footer-contacto:hover{
+    color: var(--color-texto-principal); 
+    text-decoration-thickness:2px;
+    text-decoration-color: var(--color-texto-secundario);
+}
