@@ -1,0 +1,126 @@
+:root {
+    --color-texto-principal: #212121;
+    --color-texto-secundario: #2126F3;
+    --color-texto-terceario: #FFFFFF;
+    --background-color-principal: #2126F3;
+  }
+  
+  body {
+    font-family: "roboto", "sans-serif";
+    font-style: normal;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 0.03;
+  }
+  
+  p {
+    color: #757575;
+  }
+  
+  /* ----header----*/
+  
+  /* Enlace Webstudio*/
+  
+  .principal-link {
+    color: var(--color-texto-secundario);
+    font-family: Raleway;
+    font-size: 26px;
+    text-decoration: none;
+  }
+  
+  /* links header*/
+  
+  .link-study {
+    font-family: Roboto;
+    color: var(--color-texto-secundario);
+    text-decoration: none;
+  }
+  
+  .link-study:hover {
+    color: #ac138d;
+  }
+  
+  .link-briefcase {
+    color: var(--color-texto-secundario);
+    text-decoration: none;
+  }
+  
+  .link-briefcase:hover {
+    color: #ac138d;
+  }
+  
+  .link {
+    color: var(--color-texto-principal);
+    text-decoration: none;
+  }
+  
+  .link:hover {
+    color: #ac138d;
+  }
+  
+  .header-number-contact {
+    color: var(--color-texto-principal);
+    text-decoration: none;
+  }
+  
+  .header-number-contact:hover {
+    color: #ac138d;
+  }
+  
+  /*--------main-------*/
+  
+  /*--Titulo Principal--*/
+  
+  .main-section {
+    color: var(--color-texto-terceario);
+    background-color: #2F303A;
+    width: 1600px;
+    height: 300px;
+    left: -4px;
+    top: 80px;
+  }
+  
+  .principal-title {
+  }
+  
+  /* Botones - main*/
+  
+  .principal-button {
+    color: var(--color-texto-terceario);
+    background-color: var(--background-color-principal);
+    cursor: pointer;
+  }
+  
+  .button {
+    color: var(--color-texto-principal);
+    background-color: #F5F4FA;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    color: var(--color-texto-principal);
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-decoration-color: var(--color-texto-secundario);
+  }
+  
+  .footer {
+    color: var(--color-texto-terceario);
+    background-color: #2F303A;
+  }
+  
+  .footer-link {
+    color: var(--color-texto-terceario);
+    text-decoration: none;
+  }
+  
+  .footer-contact {
+    color: var(--color-texto-terceario);
+    text-decoration: none;
+  }
+  
+  .footer-contact:hover {
+    color: var(--color-texto-terceario);
+    text-decoration-thickness: 2px;
+    text-decoration-color: var(--color-texto-secundario);
+  }
