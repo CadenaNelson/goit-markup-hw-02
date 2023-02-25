@@ -13,6 +13,7 @@ body{
     font-family: "Roboto", sans-serif;
     font-style: normal;
     font-size: 14px;
+    font-weight: 400;
     letter-spacing:3%;
 }
 
@@ -37,6 +38,7 @@ body{
     color: var(--color-texto-secundario);
     font-family: "Roboto";
     font-style: medium;
+    font-weight: 700;
     line-height: 0.86;
     text-align: left;
     letter-spacing:2%;
@@ -51,6 +53,7 @@ body{
     color: var(--color-texto-secundario);
     font-family: "Roboto";
     font-style: medium;
+    font-weight: 700;
     line-height: 0.86;
     text-align: left;
     letter-spacing:2%;
@@ -65,6 +68,7 @@ body{
     color: var(--color-texto-principal);
     font-family: "Roboto";
     font-style: medium;
+    font-weight: 700;
     line-height: 0.86;
     text-align: left;
     letter-spacing:2%;
@@ -75,10 +79,27 @@ body{
     color: var(--color-texto-secundario);
 }
 
+.link-header{
+    color: #757575;
+    font-family: "Roboto";
+    font-style: medium;
+    font-weight: 700;
+    line-height: 0.86;
+    text-align: left;
+    letter-spacing:2%;
+    text-decoration: none;
+}
+.link-header:hover,
+.link-header:focus{
+    color: var(--color-texto-secundario);
+}
+
+
 .header-number-contact{
     color: #757575;
     font-family: "Roboto";
     font-style: regular;
+    font-weight: 700;
     line-height: 1.71;
     text-align: left;
     text-decoration: none;
@@ -113,13 +134,17 @@ body{
 .principal-button{
     color: var(--color-texto-terceario);
     background-color: var(--background-color-principal);
+    font-family: "Roboto";
     font-style: bold;
     font-size: 16px;
+    font-weight: 700;
     line-height: 1.87;
     border: 0; 
     cursor: pointer;
     text-align: center;
     margin: 30px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px; 
 }
 .principal-button:hover, 
 .principal-button:focus{
@@ -129,11 +154,15 @@ body{
 .button-portfolio{
     color: var(--color-texto-terceario);
     background-color: var(--background-color-principal);
+    font-family: "Roboto";
     font-style: medium;
     font-size: 16px;
+    font-weight: 700;
     line-height: 1.62;
     border: 0;
     cursor: pointer;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px; 
 }
 
 .button-portfolio:hover, 
@@ -144,15 +173,20 @@ body{
 .button{
     color: var(--color-texto-principal);
     background-color: #F5F4FA;
+    font-family: "Roboto";
     font-style: medium;
     font-size: 16px;
+    font-weight: 700;
     line-height: 1.62;
     border: 0;
     cursor: pointer;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px; 
 }
 .button:hover,
 .button:focus{
-    color: var(--color-texto-secundario);
+    color: var(--color-texto-terceario);
+    background-color: var(--background-color-principal);
 }
 
 
@@ -232,6 +266,7 @@ body{
 .footer-link{
     color: rgba(255, 255, 255, 0.6);
     font-style: regular;
+    font-weight: 700;
     line-height: 1.71;
     text-align: left;
     text-decoration: none;
@@ -245,6 +280,7 @@ body{
 .footer-number-contact{
     color: rgba(255, 255, 255, 0.6);
     font-style: regular;
+    font-weight: 700;
     line-height: 1.71;
     text-align: left;
     text-decoration: none;
