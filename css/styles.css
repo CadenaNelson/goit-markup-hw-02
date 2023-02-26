@@ -24,7 +24,7 @@ body{
 .principal-link{
     color: var(--color-texto-secundario);
     font-family: "Raleway";
-    font-style: bold;
+    font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
     text-align: right;
@@ -37,8 +37,7 @@ body{
 .link-study{
     color: var(--color-texto-secundario);
     font-family: "Roboto";
-    font-style: medium;
-    font-weight: 700;
+    font-weight: 500;
     line-height: 0.86;
     text-align: left;
     letter-spacing: 0.02em;
@@ -52,8 +51,7 @@ body{
 .link-portfolio{
     color: var(--color-texto-secundario);
     font-family: "Roboto";
-    font-style: medium;
-    font-weight: 700;
+    font-weight: 500;
     line-height: 0.86;
     text-align: left;
     letter-spacing:0.02em;
@@ -67,8 +65,7 @@ body{
 .link{
     color: var(--color-texto-principal);
     font-family: "Roboto";
-    font-style: medium;
-    font-weight: 700;
+    font-weight: 500;
     line-height: 0.86;
     text-align: left;
     letter-spacing:0.02em;
@@ -82,8 +79,7 @@ body{
 .link-header{
     color: #757575;
     font-family: "Roboto";
-    font-style: medium;
-    font-weight: 700;
+    font-weight: 500;
     line-height: 0.86;
     text-align: left;
     letter-spacing: 0.02em;
@@ -98,8 +94,8 @@ body{
 .header-number-contact{
     color: #757575;
     font-family: "Roboto";
-    font-style: regular;
-    font-weight: 700;
+    font-style: normal;
+    font-weight: 500;
     line-height: 1.71;
     text-align: left;
     text-decoration: none;
@@ -121,7 +117,6 @@ body{
 
 .principal-title{
     color: var(--color-texto-terceario);
-    font-style: normal;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -135,7 +130,6 @@ body{
     color: var(--color-texto-terceario);
     background-color: var(--background-color-principal);
     font-family: "Roboto";
-    font-style: bold;
     font-size: 16px;
     font-weight: 700;
     line-height: 1.87;
@@ -156,7 +150,8 @@ body{
     color: var(--color-texto-terceario);
     background-color: var(--background-color-principal);
     font-family: "Roboto";
-    font-style: medium;
+    font-style: normal;
+    font-weight: 500;
     font-size: 16px;
     font-weight: 700;
     line-height: 1.62;
@@ -175,7 +170,8 @@ body{
     color: var(--color-texto-principal);
     background-color: #F5F4FA;
     font-family: "Roboto";
-    font-style: medium;
+    font-style: normal;
+    font-weight: 500;
     font-size: 16px;
     font-weight: 700;
     line-height: 1.62;
@@ -195,13 +191,13 @@ body{
 
 .title{
     color: var(--color-texto-principal);
-    font-style: bold;
+    font-weight: 700;
     text-align: left;
     line-height: 1.14;
 }
 .paragraph{
     color: #757575;
-    font-style: regular;
+    font-weight: 400;
     line-height: 1.71;
     text-align: left;
 }
@@ -209,7 +205,7 @@ body{
     list-style: none;
 }
 .title-service{
-    font-style: bold;
+    font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
@@ -219,12 +215,12 @@ body{
 }
 
 .h3{
-    font-style: medium;
+    font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
 }
 .paragraph-second{
-    font-style: regular;
+    font-weight: 400;
     font-size: 16px;
     line-height: 1.18;
 }
@@ -250,7 +246,8 @@ body{
 .link-study-footer{
     color: var(--color-texto-secundario);
     font-family: Raleway;
-    font-style: bold;
+    font-style: normal;
+    font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
@@ -259,14 +256,14 @@ body{
 
 .dir{
     color: #FFFFFF;
-    font-style: regular;
+    font-weight: 400;
     line-height: 1.71;
     text-align: left;
 }
 
 .footer-link{
     color: rgba(255, 255, 255, 0.6);
-    font-style: regular;
+    font-weight: 500;
     font-weight: 700;
     line-height: 1.71;
     text-align: left;
@@ -280,8 +277,7 @@ body{
 
 .footer-number-contact{
     color: rgba(255, 255, 255, 0.6);
-    font-style: regular;
-    font-weight: 700;
+    font-weight: 400;
     line-height: 1.71;
     text-align: left;
     text-decoration: none;
@@ -295,7 +291,7 @@ body{
 /*---portfolio---*/
 .title-h3{
     color:var(--color-texto-principal);
-    font-style: bold;
+    font-weight: 700;
     font-size: 18px;
     line-height: 2;
     text-align: Left;
@@ -303,7 +299,7 @@ body{
 }
 .paragraph-portfolio{
     color: #757575;
-    font-style: regular;
+    font-weight: 400;
     font-size: 16px;
     line-height: 1.87;
     text-align: Left;
