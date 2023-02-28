@@ -1,5 +1,31 @@
-/*Variables*/
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+}
+html{
+    box-sizing: border-box;
+}
+*,*::after,*::before{
+    box-sizing: inherit;
+}
+img{
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+address{
+    font-style: normal;
+}
+.link{
+    text-decoration: none;
+    color: inherit;
+}
+.list{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
 
+/*------Variables*/
 :root{
     --color-texto-principal: #212121; 
     --color-texto-secundario: #2196F3;
@@ -28,8 +54,8 @@ body{
     font-size: 26px;
     line-height: 1.19;
     text-align: right;
-    Vertical-align: Top;
     text-decoration: none;
+    top: 24px;
 }
 
 /* links header*/
@@ -111,18 +137,18 @@ body{
 .section-title{
     color: var(--color-texto-terceario);
     background-color: #2F303A;
-    left: -4px;
-    top: 80px;
 }
 
 .principal-title{
     color: var(--color-texto-terceario);
+    width: 696px;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
     text-align: center;
     letter-spacing: 0.06em;
 }
+
 
 /* Botones - main*/ 
 
@@ -140,6 +166,10 @@ body{
     margin: 30px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px; 
+    width: 261px;
+    height: 50px;
+    left: 666px;
+    top: 430px;
 }
 .principal-button:hover, 
 .principal-button:focus{
@@ -187,7 +217,7 @@ body{
 }
 
 
-/*----Sección de servicios---*/
+/*----Sección de beneficios y servicios---*/
 
 .title{
     color: var(--color-texto-principal);
@@ -201,8 +231,17 @@ body{
     line-height: 1.71;
     text-align: left;
 }
-.list{
+.list-ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     list-style: none;
+    gap: 60px;
+}
+
+.list-addres{
+    list-style: none;
+    display: block;
 }
 .title-service{
     font-weight: 700;
@@ -218,6 +257,7 @@ body{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
+    margin: 20px;
 }
 .paragraph-second{
     font-weight: 400;
@@ -263,10 +303,8 @@ body{
 
 .footer-link{
     color: rgba(255, 255, 255, 0.6);
-    font-weight: 500;
-    font-weight: 700;
+    font-weight: 400;
     line-height: 1.71;
-    text-align: left;
     text-decoration: none;
 }
 
@@ -279,7 +317,6 @@ body{
     color: rgba(255, 255, 255, 0.6);
     font-weight: 400;
     line-height: 1.71;
-    text-align: left;
     text-decoration: none;
 }
 .footer-number-contact:hover, 
@@ -303,4 +340,62 @@ body{
     font-size: 16px;
     line-height: 1.87;
     text-align: Left;
+}
+
+/*----contenedor---*/
+.container { 
+    width: 1200px; 
+    padding-left: 15px; 
+    padding-right: 15px; 
+    margin:0 auto; 
+}
+
+.section{
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
+
+
+/* ---flex box---*/
+
+.container-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.link-nav{
+    display: flex; 
+}
+
+.container-title{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list-service{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+    gap: 30px;
+
+}
+
+.team-service{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 50px;
+    gap: 30px;
+    padding-bottom: 30px;
+}
+
+.container-footer{
+    display: block;
+    padding-top: 50px;
+
 }
